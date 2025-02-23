@@ -6,6 +6,7 @@ fun main() {
         val st = readln()!!.toDouble()
         when(st){
             0.0 -> println("сторона не можеть равняться нулю")
+            return
         }
         val S = st * st * (sqrt(3.0))/ 4
         val radV = st * (sqrt(3.0))/6
